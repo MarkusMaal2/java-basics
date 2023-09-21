@@ -11,7 +11,7 @@ public class GuessingGame {
     }
 
     public void play(int lowerLimit, int upperLimit) {
-        instructions(upperLimit, lowerLimit);
+        instructions(lowerLimit, upperLimit);
 
         // write the game logic here
         int avg = this.average(lowerLimit, upperLimit);
